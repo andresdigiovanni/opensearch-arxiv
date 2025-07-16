@@ -1,0 +1,8 @@
+default_model: local_embeddings
+
+custom_llm_provider:
+  local_embeddings:
+    model_name: BAAI/bge-base-en
+    api_base: http://embedding-api:8000
+    litellm_provider: openai
+    mode: embeddings

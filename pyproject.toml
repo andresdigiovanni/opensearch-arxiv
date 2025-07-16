@@ -1,0 +1,18 @@
+[project]
+name = "opensearch-arxiv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "litellm[proxy]>=1.74.3",
+    "opensearch-py>=3.0.0",
+    "pre-commit>=4.2.0",
+    "pymupdf>=1.26.3",
+    "requests>=2.32.4",
+    "sentence-transformers>=5.0.0",
+    "torch>=2.7.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.53.2",
+]
